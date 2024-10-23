@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="styleproduct.css">
+</head>
+<body>
+    <div class="container">
+        <div class="product">
+            <div class="gallery">
+                <img src="img1.jpg" alt="product 1" id="productImg">
+                <div class="controls">
+                    <span class="btn active"></span>
+                    <span class="btn"></span>
+                    <span class="btn"></span>
+                </div>
+            </div>
+            <div class="details">
+                <h1>IPhone Casings</h1>
+                <h2>Rp. 5.000.000,00</h2>
+                <h3>Diskon 95%</h3>
+                <p>Casing ini dibuat dari tangisan anak yatim,diare Osama bin Laden,dan GYATT seorang discord mod</p>
+                <form>
+                    <div class="phone-size">
+                        <p>Type</p>
+                        <label for="small">
+                            <input type="radio" name="size" id="small">
+                            <span>IPhone 11</span>
+                        </label>
+                        <label for="medium">
+                            <input type="radio" name="size" id="medium">
+                            <span>IPhone 12</span>
+                        </label>
+                        <label for="large">
+                            <input type="radio" name="size" id="large">
+                            <span>IPhone 13</span>
+                        </label>
+                        <label for="extra-large">
+                            <input type="radio" name="size" id="extra-large">
+                            <span>Newest Type</span>
+                        </label>
+                    </div>
+                    <div class="color">
+                        <p>Color</p>
+                        <label for="red">
+                            <input type="radio" name="color" id="red" data-image="img1.jpg">
+                            <span class="color-1"></span>
+                        </label>
+                        <label for="green">
+                            <input type="radio" name="color" id="green" data-image="img2.jpg">
+                            <span class="color-2"></span>
+                        </label>
+                        <label for="violet">
+                            <input type="radio" name="color" id="violet" data-image="img3.png">
+                            <span class="color-3"></span>
+                        </label>
+                    </div>
+
+                    <div class="quantity">
+                        <p>Quantity</p>
+                        <input type="number" value="50" min="50" id="quantityinput">
+                        <p id="stockinfo"></p>
+                    </div>
+                    <button>Buy now and you will be the ULTIMATE ALPHA SIGMA MALE</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="scriptproduct.js"></script>
+</body>
+</html>
